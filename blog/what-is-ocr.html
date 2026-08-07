@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What Is OCR? How Optical Character Recognition Works | PicToTexts</title>
+<meta name="description" content="OCR (Optical Character Recognition) turns images of text into editable text. Learn how OCR works, its history, accuracy factors and everyday uses.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://pictotexts.com/blog/what-is-ocr">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PicToTexts">
+<meta property="og:title" content="What Is OCR? How Optical Character Recognition Works | PicToTexts">
+<meta property="og:description" content="OCR (Optical Character Recognition) turns images of text into editable text. Learn how OCR works, its history, accuracy factors and everyday uses.">
+<meta property="og:url" content="https://pictotexts.com/blog/what-is-ocr">
+<meta property="og:image" content="https://pictotexts.com/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="What Is OCR? How Optical Character Recognition Works | PicToTexts">
+<meta name="twitter:description" content="OCR (Optical Character Recognition) turns images of text into editable text. Learn how OCR works, its history, accuracy factors and everyday uses.">
+<meta name="twitter:image" content="https://pictotexts.com/assets/og-image.png">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "What Is OCR? How Optical Character Recognition Works", "description": "OCR (Optical Character Recognition) turns images of text into editable text. Learn how OCR works, its history, accuracy factors and everyday uses.", "author": {"@type": "Organization", "name": "PicToTexts"}, "publisher": {"@type": "Organization", "name": "PicToTexts", "logo": {"@type": "ImageObject", "url": "https://pictotexts.com/assets/og-image.png"}}, "datePublished": "2026-08-07", "dateModified": "2026-08-07", "mainEntityOfPage": "https://pictotexts.com/blog/what-is-ocr", "image": "https://pictotexts.com/assets/og-image.png"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://pictotexts.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://pictotexts.com/blog/"}, {"@type": "ListItem", "position": 3, "name": "What Is OCR? How Optical Character Recognition Works", "item": "https://pictotexts.com/blog/what-is-ocr"}]}</script>
+</head>
+<body><header>
+<div class="container nav">
+<a class="logo" href="/" aria-label="PicToTexts home"><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="7" fill="#2563eb"/><path d="M9 11h14M9 16h14M9 21h8" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></svg>Pic<span>To</span>Texts</a>
+<button class="menu-btn" id="menuBtn" aria-label="Open menu"><svg fill="none" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+<ul class="nav-links" id="navLinks">
+<li><a href="/">Picture to Text</a></li>
+<li><a href="/blog/">Blog</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/contact">Contact</a></li>
+</ul>
+</div>
+</header>
+<div class="page-head"><div class="container"><h1>What Is OCR? How Optical Character Recognition Works</h1><p>2026-08-07 · 6 min read</p></div></div>
+<section><div class="container prose">
+
+<p>Every time you convert a <a href="/">picture to text</a>, deposit a check with your banking app, or watch a parking camera read a license plate, you're seeing OCR in action. But what exactly is OCR, and how does a computer "read" an image?</p>
+<h2>OCR in Plain English</h2>
+<p>OCR stands for <strong>Optical Character Recognition</strong>. It is the technology that detects text inside an image — a scan, photo or screenshot — and converts it into machine-readable, editable text. To a computer, a photo of a page is just a grid of colored pixels; OCR is the bridge that turns those pixels back into letters, words and sentences you can copy, search and edit.</p>
+<h2>A Brief History</h2>
+<p>OCR is older than you might think. Early reading machines appeared in the 1910s as aids for the blind, and by the 1970s companies were using OCR to process mail and bank documents. A major milestone was Tesseract, an engine developed at HP Labs in the 1980s, later open-sourced and sponsored by Google — today it powers many of the OCR tools you use online, including PicToTexts. Modern OCR combines these decades of engineering with machine learning, pushing accuracy on clear printed text above 99%.</p>
+<h2>How OCR Actually Works</h2>
+<p>Most OCR engines follow a similar pipeline:</p>
+<h3>1. Pre-processing</h3>
+<p>The image is cleaned up first: converted to black and white, de-skewed so text lines are horizontal, and filtered to remove noise, shadows and speckles. Good pre-processing is often the difference between 80% and 99% accuracy.</p>
+<h3>2. Text Detection and Segmentation</h3>
+<p>The engine locates regions that contain text, then splits them into lines, words and finally individual characters. Layout analysis also identifies columns, paragraphs and tables so the output keeps a sensible reading order.</p>
+<h3>3. Character Recognition</h3>
+<p>Each character image is classified — historically by matching shapes and features (loops, lines, curves), and in modern engines by neural networks trained on millions of text samples. The engine considers whole words at once, using built-in dictionaries to resolve ambiguities like "l" vs "1" or "O" vs "0".</p>
+<h3>4. Post-processing</h3>
+<p>Finally, language models correct likely errors, restore spacing and produce the finished text output.</p>
+<h2>What Affects OCR Accuracy?</h2>
+<ul>
+<li><strong>Image resolution:</strong> more pixels per character means more detail to work with.</li>
+<li><strong>Contrast and lighting:</strong> dark text on a light, even background is ideal.</li>
+<li><strong>Font and size:</strong> standard printed fonts read best; decorative or tiny text is harder.</li>
+<li><strong>Skew and distortion:</strong> tilted or warped text (like a curved book page) reduces accuracy.</li>
+<li><strong>Language settings:</strong> matching the OCR language to the text is essential for non-English content.</li>
+</ul>
+<h2>Everyday Uses of OCR</h2>
+<p>OCR quietly powers a huge amount of modern life: digitizing books and archives, automating invoice and receipt processing, enabling searchable PDFs, reading passports at borders, helping visually impaired users hear printed text, translating signs through your phone camera, and of course letting you <a href="/">convert any picture to text</a> in your browser for free.</p>
+<h2>Try OCR Yourself</h2>
+<p>The easiest way to understand OCR is to use it. Grab any screenshot or photo with text and try our free <a href="/">picture to text converter</a> — your image is processed right in your browser, and you'll have editable text in seconds.</p>
+
+</div></section>
+<section><div class="container"><div class="cta">
+<h2>Convert Your Picture to Text — Free</h2>
+<p>No sign-up. No limits. Your images never leave your browser.</p>
+<a class="btn" href="/">Try the Converter</a>
+</div></div></section>
+<footer>
+<div class="container">
+<div class="foot-grid">
+<div>
+<h4>PicToTexts</h4>
+<p>PicToTexts.com is a free online picture to text converter. Turn any pic into editable text with accurate OCR — right in your browser, with complete privacy. No sign-up, no limits, no watermarks.</p>
+</div>
+<div>
+<h4>Quick Links</h4>
+<ul>
+<li><a href="/">Picture to Text Converter</a></li>
+<li><a href="/blog/">Blog</a></li>
+<li><a href="/about">About Us</a></li>
+<li><a href="/contact">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4>Legal</h4>
+<ul>
+<li><a href="/privacy-policy">Privacy Policy</a></li>
+<li><a href="/terms">Terms of Service</a></li>
+</ul>
+</div>
+</div>
+<div class="foot-bottom">© 2026 PicToTexts.com — Free Picture to Text Converter. All rights reserved.</div>
+</div>
+</footer>
+<script src="/app.js" defer></script>
+</body>
+</html>
